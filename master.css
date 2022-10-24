@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 14px;
+    font-weight: 500;
+    background-color: hsl(26, 40%, 92%);
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px 0;
+}
+
+.container{
+    width: 343px;
+    border-radius: 1rem;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: white;
+}
+
+figure{
+    height: 240px;
+    background-image: url(./images/image-product-mobile.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+section{
+    margin: 10px;
+    padding: 0 6px;
+    padding-bottom: 10px;
+}
+
+section > *{
+    margin: 15px 0;
+}
+
+header p, article,footer span:last-child{
+    color: hsl(228, 12%, 48%);
+}
+
+header h1, footer span:first-child{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+}
+
+header p{
+    font-size: 13px;
+}
+
+footer span:first-child{
+    font-size: 19px;
+    font-weight: bolder;
+    color: hsl(158, 36%, 37%);
+    margin-right: 10px;
+}
+
+footer span:last-child{
+    text-decoration: line-through;
+    font-size: 11px;
+}
+
+button{
+    display: block;
+    height: 47px;
+    width: 294px;
+    border-style: none;
+    border-radius: calc(47px/8);
+    background-color:  hsl(158, 36%, 37%);
+    color: white;
+    margin: auto;
+}
+
+button > *{
+    margin: 0 3px;
+}
