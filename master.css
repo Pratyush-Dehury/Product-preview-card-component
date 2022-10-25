@@ -76,3 +76,49 @@ button{
 button > *{
     margin: 0 3px;
 }
+
+@media only screen and (min-width:1440px){
+    .container{
+        width: 721px;
+        height: 540px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+    }
+
+    figure{
+        height: 100%;
+        background-image: url(./images/image-product-desktop.jpg);
+    }
+
+    section{
+        height: 100%;
+        font-size: 24px;
+        padding: 36px;
+    }
+
+    header p, article{
+        font-size: 19px;
+    }
+
+    footer span:first-child{
+        font-size: 27px;
+    }
+
+    section > *{
+        margin: 20px 0;
+    }
+
+    button ,footer{
+        margin-top: 40px;
+    }
+
+    button{
+        width: 100%;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+}
